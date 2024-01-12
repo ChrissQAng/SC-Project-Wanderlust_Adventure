@@ -217,4 +217,34 @@ footer {
   margin-top: 10vh;
   background-color: #1d242a;
   min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.socials p {
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+}
+.social-icons {
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.socials span:nth-of-type(2) {
+  text-decoration: underline dotted;
+}
+
+/* ---------- media querries */
+
+@media only screen and (max-width: 768px) {
+  .section2 article {
+    flex-direction: column;
+  }
+  .section2 article:nth-of-type(2) {
+    flex-direction: column;
+  }
+  .section2 h3 {
+    text-align: center;
+  }
 }
