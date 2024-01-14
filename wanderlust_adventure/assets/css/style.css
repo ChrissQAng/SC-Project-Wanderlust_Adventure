@@ -73,6 +73,9 @@ h1 {
   text-transform: uppercase;
   letter-spacing: 0.3vw;
 }
+.div-header a:hover {
+  background-color: lightgreen;
+}
 .div-header {
   display: flex;
   flex-direction: column;
@@ -224,6 +227,9 @@ footer {
   text-transform: uppercase;
   letter-spacing: 0.3vw;
   align-self: self-start;
+}
+.contact-wrapper a:hover {
+  background-color: lightgreen;
 }
 /* -------- footer - socials */
 
