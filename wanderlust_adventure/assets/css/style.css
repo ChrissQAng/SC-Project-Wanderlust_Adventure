@@ -50,7 +50,7 @@ header {
 }
 nav {
   text-align: right;
-  margin-bottom: 30vh;
+  padding-bottom: 30vh;
 }
 nav a {
   font-size: 1.4rem;
@@ -87,12 +87,10 @@ h1 {
 /* ---------- section 1 */
 
 .section1 {
-  /* min-height: 55vh; */
   padding: 0 20rem;
   background-color: #21b2a6;
 }
 .section1 h2 {
-  /* text-align: center; */
   display: inline-block;
   border-bottom: 2px solid rgba(0, 0, 0, 0.13);
   padding-bottom: 3rem;
@@ -266,6 +264,12 @@ footer {
   align-items: center;
   gap: 0.5rem;
 }
+/* .social-icons svg:hover {
+  fill: white;
+}
+.social-icons svg {
+  fill: rgba(255, 255, 255, 0.5);
+} */
 
 /* ---------------------------------------------------------- */
 /* ---------- media querries */
@@ -322,6 +326,9 @@ footer {
 
 @media only screen and (max-width: 567px) {
   /* --- header */
+  nav a {
+    display: none;
+  }
   .div-header a {
     padding: 1rem 15rem;
   }
