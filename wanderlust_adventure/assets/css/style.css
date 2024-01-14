@@ -129,8 +129,10 @@ h1 {
 }
 
 .section2 article img {
-  /* object-fit: fill; */
   min-width: 57rem;
+}
+.break {
+  display: block;
 }
 .section2 div {
   padding: 5rem;
@@ -251,8 +253,15 @@ footer {
   gap: 2rem;
   margin-bottom: 2rem;
 }
-.socials span:nth-of-type(2) {
+.socials div .dotted {
   text-decoration: underline dotted;
+}
+.copyright {
+  display: flex;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.4rem;
+  align-items: center;
+  gap: 0.5rem;
 }
 /* ---------------------------------------------------------- */
 /* ---------- media querries */
@@ -273,9 +282,10 @@ footer {
   .section2 article:nth-of-type(2) {
     flex-direction: column;
   }
-  /* ------------------------ MARIA */
-  .section2 h3 {
+  .break {
     display: inline;
+  }
+  .section2 h3 {
     text-align: center;
   }
   .section2 p {
@@ -359,14 +369,14 @@ footer {
     gap: 10vw;
     /* padding-top: 30vh; */
   }
-  .socials p {
-    displa;
-  }
-  .socials span:nth-of-type(1) {
+
+  .separation-line {
     display: none;
   }
-  /*  --------------------- MARIA*/
-  .socials span:nth-of-type(2) {
+  .copyright {
+    display: block;
+  }
+  .dotted {
     display: inline;
   }
 }
